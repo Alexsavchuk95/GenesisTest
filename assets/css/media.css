@@ -5,8 +5,45 @@
 }
 
 @media(min-width:635px) {
-    .mainImprove__graphItemSvg {
-        display: block;
+    .mainImprove__graphItem {
+        margin: 0 auto 20px;
+    }
+    
+    .mainImprove__graphItem:last-child {
+        margin: 0 auto 32px;
+    }
+    
+    .mainImprove__graphItemSvg,
+    .mainImprove__graphItemSvg-blue,
+    .mainImprove__graphItemSvg-orange,
+    .mainImprove__graphItemSvg-green {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        z-index: 1;
+        top: -15px;
+        left: 7px;
+    }
+
+    .mainImprove__linesCnt span {
+        margin: 0 auto 50px;
+        background: #ECECEC;
+    }
+
+    .mainImprove__linesCnt span:first-child {
+        margin: 0 auto 54px;
+    }
+
+    .mainImprove__graphItemCnt {
+        padding: 5px 0px 6px;
+        font-size: 18px;
+        max-width: 126px;
+        height: 30px;
+    }
+    
+
+    .mainImprove__graphItem:before {
+        background: #ECECEC;
     }
 }
 
@@ -88,3 +125,51 @@
         padding: 22px 77px 29px;
     }
 }
+
+/*  */
+/* {
+    .mainImprove__graphItem {
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        margin: 0 auto 20px;
+    }
+    
+    .mainImprove__graphItem:last-child {
+        margin: 0 auto 32px;
+    }
+    
+    .mainImprove__graphItemSvg {
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+        top: -15px;
+        left: 7px;
+        display: none;
+    }
+
+    .mainImprove__graphItemCnt {
+        padding: 5px 0px 6px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 105%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #F0F8FF;
+        border-radius: 15px;
+        color: #51A8EA;
+        position: relative;
+        z-index: 2;
+        margin-right: 22px;
+        width: 100%;
+        max-width: 126px;
+        height: 30px;
+    }
+    
+
+    .mainImprove__graphItem:before {
+        background: #ECECEC;
+    }
+} */
+/* ====== */
