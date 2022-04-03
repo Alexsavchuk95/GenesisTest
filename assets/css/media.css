@@ -5,6 +5,10 @@
 }
 
 @media(min-width:635px) {
+
+    .mainImprove__graph {
+        max-width: 604px;
+    }
     .mainImprove__graphItem {
         margin: 0 auto 20px;
     }
