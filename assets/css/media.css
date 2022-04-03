@@ -73,7 +73,7 @@
     }
 
     .get {
-        padding: 178px 15px 84px;
+        padding: 108px 15px 84px;
     }
 
     .get__title {
@@ -129,51 +129,3 @@
         padding: 22px 77px 29px;
     }
 }
-
-/*  */
-/* {
-    .mainImprove__graphItem {
-        position: relative;
-        display: flex;
-        justify-content: flex-end;
-        margin: 0 auto 20px;
-    }
-    
-    .mainImprove__graphItem:last-child {
-        margin: 0 auto 32px;
-    }
-    
-    .mainImprove__graphItemSvg {
-        position: absolute;
-        width: 100%;
-        z-index: 1;
-        top: -15px;
-        left: 7px;
-        display: none;
-    }
-
-    .mainImprove__graphItemCnt {
-        padding: 5px 0px 6px;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 105%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: #F0F8FF;
-        border-radius: 15px;
-        color: #51A8EA;
-        position: relative;
-        z-index: 2;
-        margin-right: 22px;
-        width: 100%;
-        max-width: 126px;
-        height: 30px;
-    }
-    
-
-    .mainImprove__graphItem:before {
-        background: #ECECEC;
-    }
-} */
-/* ====== */
