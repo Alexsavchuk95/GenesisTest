@@ -40,8 +40,8 @@
                             <div class="mainImprove__graphItemCnt">
                                 Grammar
                             </div>
-                            <svg class="mainImprove__graphItemSvg mainImprove__graphItemSvg-blue" width="604" height="318" viewBox="0 0 604 318"
-                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg class="mainImprove__graphItemSvg mainImprove__graphItemSvg-blue" width="604"
+                                height="318" viewBox="0 0 604 318" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g filter="url(#filter0_d_3_211)">
                                     <path
                                         d="M32 282C87.4767 282 88.2749 234.094 153.33 234.094C218.386 234.094 258.072 214.259 285.212 155.749C323.173 73.91 340.739 28.0005 401.579 28.0005C484.517 28.0005 498.164 28.0001 572 28.0001"
@@ -70,8 +70,8 @@
                             <div class="mainImprove__graphItemCnt">
                                 Vocabulary
                             </div>
-                            <svg class="mainImprove__graphItemSvg mainImprove__graphItemSvg-orange" width="604" height="288" viewBox="0 0 604 288"
-                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg class="mainImprove__graphItemSvg mainImprove__graphItemSvg-orange" width="604"
+                                height="288" viewBox="0 0 604 288" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g filter="url(#filter0_d_3_213)">
                                     <path
                                         d="M32 252C87.4767 252 92.5723 165.714 157.628 165.714C222.683 165.714 243.354 141.374 270.493 89.9021C308.454 17.9079 340.739 28.5547 401.579 28.5547C484.517 28.5547 498.164 28.5543 572 28.5543"
@@ -101,8 +101,8 @@
                             <div class="mainImprove__graphItemCnt">
                                 Pronunciation
                             </div>
-                            <svg class="mainImprove__graphItemSvg mainImprove__graphItemSvg-green" width="602" height="198" viewBox="0 0 602 198"
-                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg class="mainImprove__graphItemSvg mainImprove__graphItemSvg-green" width="602"
+                                height="198" viewBox="0 0 602 198" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g filter="url(#filter0_d_3_212)">
                                     <path
                                         d="M32 162C87.2713 162 88.0665 114.179 152.881 114.179C217.695 114.179 205.949 114.179 259.845 114.179C330.226 114.179 325.057 28 400.21 28.0004C482.841 28.0009 496.438 28 570 28"
@@ -196,7 +196,14 @@
                     <li class="get__item">
                         <img src="./assets/img/scree121.png" alt="screen" class="get__itemImg">
                         <div class="get__itemCnt">
-                            <img src="./assets/img/get_item1.png" alt="get icon" class="get__itemCntImg">
+                            <picture class="get__itemCntImg">
+                                <source media="(max-width: 38em)"
+                                    srcset="./assets/img/get_item1@2x.png 2x, ./assets/img/get_item1.png 1x"
+                                    type=“image/png>
+                                <img src="./assets/img/get_item1.png"
+                                    srcset="./assets/img/get_item1@2x.png 2x, ./assets/img/get_item1.png 1x"
+                                    class="get__itemCntImg" alt="get icon">
+                            </picture>
                             <p class="get__itemCntTitle">Educational Games 🎮</p>
                             <p class="get__itemCntText">With a simple, user-friendly design and engaging games, you can
                                 challenge your friends and gain new language skills at the same time.</p>
@@ -205,7 +212,14 @@
                     <li class="get__item">
                         <img src="./assets/img/screen2.png" alt="screen" class="get__itemImg">
                         <div class="get__itemCnt">
-                            <img src="./assets/img/get_item2.png" alt="get icon" class="get__itemCntImg">
+                            <picture class="get__itemCntImg">
+                                <source media="(max-width: 38em)"
+                                    srcset="./assets/img/get_item2@2x.png 2x, ./assets/img/get_item2.png 1x"
+                                    type=“image/png>
+                                <img src="./assets/img/get_item2.png"
+                                    srcset="./assets/img/get_item2@2x.png 2x, ./assets/img/get_item2.png 1x"
+                                    class="get__itemCntImg" alt="get icon">
+                            </picture>
                             <p class="get__itemCntTitle">Check Your Knowledge</p>
                             <p class="get__itemCntText">Complete the lessons and check how well you understood the
                                 topic. </p>
@@ -221,7 +235,12 @@
             <img src="./assets/img/planB.png" alt="planImgA" class="planImgB">
             <img src="./assets/img/arrow2.png" alt="planImgA" class="arrowImgB">
             <div class="plan__cnt">
-                <img src="./assets/img/screen3.png" alt="plan screen" class="plan__img">
+                <picture class="plan__img">
+                    <source media="(max-width: 38em)"
+                        srcset="./assets/img/screen3@2x.png 2x, ./assets/img/get_item1.png 1x" type=“image/png>
+                    <img src="./assets/img/screen3.png" class="plan__img"
+                        srcset="./assets/img/screen3@2x.png 2x, ./assets/img/screen3.png 1x" alt="screen">
+                </picture>
                 <div class="plan__choose">
                     <h3 class="plan__chooseTitle">Choose your plan</h3>
                     <ul class="plan__chooseList">
